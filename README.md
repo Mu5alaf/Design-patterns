@@ -1,13 +1,13 @@
 # Design-patterns
 
-![alt text](/image/giphy.gif)
+<img src="/image/giphy.gif" alt="Picture" width="800" height="600"style="display: block; margin: 0 auto" />
 
 - What is Design Pattern?
   Design patterns are typical solutions to commonly occurring problems in software design. They are like pre-made blueprints that you can customize to solve a recurring design problem in your code
 
 ## The Catalog of Design Patterns
 
-![alt text](/image/design-patterns-division.png)
+<img src="/image/design-patterns-division.png" alt="Picture" width="800" height="600"style="display: block; margin: 0 auto" />
 
 - Creational patterns:
     These patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code
