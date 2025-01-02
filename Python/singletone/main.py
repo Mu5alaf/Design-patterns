@@ -1,40 +1,23 @@
-class SingletonMeta(type):
+class Borg:
     """
-    The Singleton class can be implemented in different ways in Python. Some
-    possible methods include: base class, decorator, metaclass. We will use the
-    metaclass because it is best suited for this purpose.
+    the Borg design pattern
     """
+    _shared_data = {} # attribute dictionary
+    
+    def __init__(self):
+        self.__dict__ = self._shared_data # make an  attribute dictionary
+        
+class Singleton(Borg):
+    """the singleton class"""
+    def __init__(self, **kwargs):
+        Borg.__init__(self)
+        self._shared_data.update(kwargs) #update the attribute dictionary by inserting a new key value pair
+        
+    def __str__(self):
+        return str(self._shared_data) # returns the attribute dictionary for printing
+        
+x  = Singleton()
+s1 = Singleton(HTTP = "Hyper Test Transfer Protocol")
+s2 = Singleton(HTTPS = "Hyper Test Transfer Protocol Secure")
 
-    _instances = {}
-
-    def __call__(cls, *args, **kwargs):
-        """
-        Possible changes to the value of the `__init__` argument do not affect
-        the returned instance.
-        """
-        if cls not in cls._instances:
-            instance = super().__call__(*args, **kwargs)
-            cls._instances[cls] = instance
-        return cls._instances[cls]
-
-
-class Singleton(metaclass=SingletonMeta):
-    def some_business_logic(self):
-        """
-        Finally, any singleton should define some business logic, which can be
-        executed on its instance.
-        """
-
-        # ...
-
-
-if __name__ == "__main__":
-    # The client code.
-
-    s1 = Singleton()
-    s2 = Singleton()
-
-    if id(s1) == id(s2):
-        print("Singleton works, both variables contain the same instance.")
-    else:
-        print("Singleton failed, variables contain different instances.")
+print(x)
