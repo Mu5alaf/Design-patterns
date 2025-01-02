@@ -58,9 +58,9 @@
 **Check**
 [Link](https://refactoring.guru/design-patterns/builder)
 
-<img src="./image/prototype.png" alt="Picture" width="800" height="600">
-
 ---
+
+<img src="./image/prototype.png" alt="Picture" width="800" height="600">
 
 5- Prototype
     - is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
