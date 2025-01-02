@@ -26,7 +26,9 @@
     - is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
 **Check**
-[title](https://refactoring.guru/design-patterns/factory-method)
+[Link](https://refactoring.guru/design-patterns/factory-method)
+
+---
 
 <img src="./image/abstract-factory-en.png" alt="Picture" width="800" height="600">
 
@@ -34,8 +36,9 @@
     - is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
 
 **Check**
-[title](https://refactoring.guru/design-patterns/abstract-factory)
+[Link](https://refactoring.guru/design-patterns/abstract-factory)
 
+---
 
 <img src="./image/singleton.png" alt="Picture" width="800" height="600">
 
@@ -43,7 +46,9 @@
     - is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
 **Check**
-[title](https://refactoring.guru/design-patterns/singleton)
+[Link](https://refactoring.guru/design-patterns/singleton)
+
+---
 
 <img src="./image/builder-en.png" alt="Picture" width="800" height="600">
 
@@ -51,12 +56,16 @@
     - is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
 
 **Check**
-[title](https://refactoring.guru/design-patterns/builder)
+[Link](https://refactoring.guru/design-patterns/builder)
 
 <img src="./image/prototype.png" alt="Picture" width="800" height="600">
+
+---
 
 5- Prototype
     - is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
 
 **Check**
-[title](https://refactoring.guru/design-patterns/prototype)
+[Link](https://refactoring.guru/design-patterns/prototype)
+
+---
