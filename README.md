@@ -20,8 +20,6 @@
 
 ## Creational patterns
 
----
-
 <img src="./image/factory-method-en.png" alt="Picture" width="800" height="600">
 
 1- Factory pattern
@@ -79,7 +77,6 @@
 
 ## Structural Patterns
 
----
 
 <img src="./image/decorator.png" alt="Picture" width="800" height="600">
 
