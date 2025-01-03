@@ -1,5 +1,5 @@
 <p align="center">
-# Design-patterns
+    <h1 style="text-align:center;">Design-patterns</h1>
 </p>
 
 <img src="./image/giphy.gif" alt="Picture" width="800" height="600">
