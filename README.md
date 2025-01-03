@@ -79,8 +79,6 @@
 
 ## Structural Patterns
 
----
-
 <img src="./image/decorator.png" alt="Picture" width="800" height="600">
 
 1- Decorator
