@@ -135,7 +135,6 @@
 
 ## Behavioral Patterns
 
----
 
 <img src="./image/observer.png" alt="Picture" width="800" height="600">
 
@@ -183,7 +182,7 @@
 
 <img src="./image/chain-of-responsibility.png" alt="Picture" width="800" height="600">
 
-4- Chain of Responsibility
+5- Chain of Responsibility
     - is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
 
 **Check**
