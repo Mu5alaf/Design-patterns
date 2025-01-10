@@ -20,7 +20,6 @@
 
 ## Creational patterns
 
-
 <img src="./image/factory-method-en.png" alt="Picture" width="800" height="600">
 
 1- Factory pattern
@@ -134,7 +133,6 @@
 ---
 
 ## Behavioral Patterns
-
 
 <img src="./image/observer.png" alt="Picture" width="800" height="600">
 
