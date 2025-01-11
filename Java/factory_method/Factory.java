@@ -13,7 +13,7 @@ class CandyStore{
             case "STAR_BURST" -> new StartBurst();
             default -> throw new IllegalArgumentException("Bad Candy Type");
         };
-        System.out.printf("SOLD: A %s Which is %s units sweet%n",candy.sweetnees())
-;    }
+        System.out.printf("SOLD: A %s Which is %s units sweet",candy.name(), candy.sweetnees());    
+    }
 }
 
